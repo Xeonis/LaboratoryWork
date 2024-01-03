@@ -36,9 +36,6 @@ int main() {
                 for (int i = 0; i < r - l + 1; i++) {
                     if (water[i] >= 2) goto Found;
                 }
-                for (int i = 0; i < r - l + 1; i++) {
-                        cout << water[i] << " " << i << endl;
-                }
                 
         }else{
             queries.push_back(make_pair(ci, x - l));
